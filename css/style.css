@@ -88,7 +88,7 @@ nav li{
     background-color: rgb(249, 187, 246);
 }
 
-/* Container enorme */
+/* Stili container enorme */
 #big_container{
     min-height: 300px;
 }
@@ -98,14 +98,43 @@ nav li{
     height: 260px;
     border: 2px dotted black;
 }
+/* Fine stili container enorme  */
 
-.cella_acqua{
-    width: 7%;
-    height: 110px;
+#cella_cipria{
+    margin-top: -0.5%;
+    width: 17%;
+    height: 135px;
     border: 2px dotted black;
+    background-color: rgb(204, 118, 181);
+}
+.cella_acqua{
+    margin-top: -0.5%; 
+    width: 7%;
+    height: 135px;
+    border: 2px dotted rgb(255, 255, 255);
     background-color:rgb(21, 200, 200);
 }
 
 
+/* Stili footer  */
+#footer{
+    border-top: 1px solid white;
+    min-height: 70px;
+}
+#container_acqua{
+    width: 45%;
+    height: 40px;
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+}
+#container_acqua *{
+    text-align: center;
+    width: 12%;
+    height: 20px;
+    border: 2px dotted rgb(0, 0, 0);
+    background-color:rgb(242, 150, 246);
+}
 
 
