@@ -4,3 +4,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Stili header */
+#container_barra{
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    /* DEBUG */
+    background-color: rgb(153, 220, 245);
+    display: flex;
+}
+
+#logo{
+    border: 2px dotted black;
+    padding: 5px;
+    width:15%;
+    /* DEBUG */
+    background-color: rgb(211, 168, 13);
+}
+#nav{
+    border: 2px dotted black;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+    /* DEBUG */
+    background-color: rgb(211, 168, 13);
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+}
+#login{
+    border: 2px dotted black;
+    padding: 5px;
+    text-align: right;
+    width: 15%;
+    /* DEBUG */
+    background-color: rgb(211, 168, 13);
+}
