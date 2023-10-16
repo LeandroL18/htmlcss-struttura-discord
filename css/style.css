@@ -5,14 +5,21 @@
     box-sizing: border-box;
 }
 
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 150px;
+}
+
 /* Stili header */
 #container_barra{
     justify-content: center;
     align-items: center;
-    min-height: 60px;
     /* DEBUG */
     background-color: rgb(153, 220, 245);
     display: flex;
+    min-height: 60px;
 }
 
 #logo{
@@ -42,3 +49,63 @@ nav li{
     /* DEBUG */
     background-color: rgb(211, 168, 13);
 }
+
+/* Stili main */
+/* Stili sezione principale */
+#sezione_principale{
+    /* DEBUG */
+    background-color: rgb(5, 0, 160);
+}
+#cella_principale{
+    border: 2px dotted black;
+    width: 40%;
+    height: 110px;
+    /* DEBUG */
+    background-color: rgb(246, 163, 241);
+}
+
+/* Stili sezioni centrali */
+.white{
+    background-color: white;
+}
+.grey{
+    background-color: rgb(197, 195, 195);
+}
+.black{
+    background-color: black;
+}
+
+.cella_celeste{
+    width: 30%;
+    height: 110px;
+    border: 2px dotted black;
+    background-color: rgb(71, 190, 254);
+}
+.cella_rosa{
+    width: 15%;
+    height: 110px;
+    border: 2px dotted black;
+    background-color: rgb(249, 187, 246);
+}
+
+/* Container enorme */
+#big_container{
+    min-height: 300px;
+}
+#cella_verde{
+    background-color: green;
+    width: 45%;
+    height: 260px;
+    border: 2px dotted black;
+}
+
+.cella_acqua{
+    width: 7%;
+    height: 110px;
+    border: 2px dotted black;
+    background-color:rgb(21, 200, 200);
+}
+
+
+
+
