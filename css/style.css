@@ -100,6 +100,7 @@ nav li{
 }
 /* Fine stili container enorme  */
 
+/* Stili footer  */
 #cella_cipria{
     margin-top: -0.5%;
     width: 17%;
@@ -115,8 +116,6 @@ nav li{
     background-color:rgb(21, 200, 200);
 }
 
-
-/* Stili footer  */
 #footer{
     border-top: 1px solid white;
     min-height: 70px;
